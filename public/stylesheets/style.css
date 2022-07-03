@@ -8,6 +8,7 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: #dcecd4;
 }
 
 a {
@@ -80,6 +81,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: 
+  #231414;
+  color: #dcecd4;
 }
 
 header h1 {
@@ -120,12 +124,25 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  border: 5px solid #231414;
+  border-radius: 5px;
+
+}
+.meta{
+  padding: 5px;
+}
+.title-name {
+  justify-content: space-between;
+  background-color: #231414;
+  padding: 5px;
+  color: #dcecd4;
 }
 
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: #dcecd4;
+
 }
 
 .edit-link {
@@ -149,11 +166,9 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  border: 1px solid #231414;
 }
 
-.comment:nth-child(odd) {
-  background-color: #fff5eb;
-}
 
 .comment .meta {
   font-size: 90%;
